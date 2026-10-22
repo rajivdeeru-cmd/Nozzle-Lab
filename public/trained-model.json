@@ -1,0 +1,1478 @@
+{
+  "modelType": "pixel-feature-knn",
+  "version": 1,
+  "trainedAt": "2026-10-17",
+  "featureNames": [
+    "edgeDensity",
+    "shockAngleNorm",
+    "cellPeakCountNorm",
+    "jetWidthRatio",
+    "verticalGradient",
+    "machDiskFlag"
+  ],
+  "records": [
+    {
+      "source": "1.4 bar ( Criag A).png",
+      "file": "Bar Images/1-2 bar/1.4 bar ( Criag A).png",
+      "pressureBar": 2,
+      "sourcePressureBar": 1.4,
+      "mach": 1.035465433432407,
+      "features": [
+        0.106134033203125,
+        0.14436992733015083,
+        1.0,
+        0.153515625,
+        0.016656525929768882,
+        0.0
+      ]
+    },
+    {
+      "source": "1.6 bar (Criag A).png",
+      "file": "Bar Images/1-2 bar/1.6 bar (Criag A).png",
+      "pressureBar": 2,
+      "sourcePressureBar": 1.6,
+      "mach": 1.035465433432407,
+      "features": [
+        0.1107666015625,
+        0.14740429756861026,
+        1.0,
+        0.14375,
+        0.01606598461375517,
+        0.0
+      ]
+    },
+    {
+      "source": "1.8 Bar (Criag A).png",
+      "file": "Bar Images/1-2 bar/1.8 Bar (Criag A).png",
+      "pressureBar": 2,
+      "sourcePressureBar": 1.8,
+      "mach": 1.035465433432407,
+      "features": [
+        0.115521240234375,
+        0.1466236385904112,
+        1.0,
+        0.159375,
+        0.020818267149083754,
+        0.0
+      ]
+    },
+    {
+      "source": "1.9 bar (Parviz Behrouzi and James J. McGuirk paper).png",
+      "file": "Bar Images/1-2 bar/1.9 bar (Parviz Behrouzi and James J. McGuirk paper).png",
+      "pressureBar": 2,
+      "sourcePressureBar": 1.9,
+      "mach": 1.035465433432407,
+      "features": [
+        0.202752685546875,
+        0.15559998628553534,
+        1.0,
+        0.2359375,
+        0.020779892042571423,
+        0.0
+      ]
+    },
+    {
+      "source": "2.3 bar (Tong Feng & James J. McGuirk).png",
+      "file": "Bar Images/2.1-3 bar/2.3 bar (Tong Feng & James J. McGuirk).png",
+      "pressureBar": 2,
+      "sourcePressureBar": 2.3,
+      "mach": 1.035465433432407,
+      "features": [
+        0.22232666015625,
+        0.1676399651373881,
+        1.0,
+        0.25625,
+        0.013270929747936772,
+        0.0
+      ]
+    },
+    {
+      "source": "2.4 bar (Criag A).png",
+      "file": "Bar Images/2.1-3 bar/2.4 bar (Criag A).png",
+      "pressureBar": 2,
+      "sourcePressureBar": 2.4,
+      "mach": 1.035465433432407,
+      "features": [
+        0.119720458984375,
+        0.15547903882326342,
+        1.0,
+        0.1765625,
+        0.019189903782863244,
+        0.0
+      ]
+    },
+    {
+      "source": "2.6 bar (Daniel Edgington-Mitchell).png",
+      "file": "Bar Images/2.1-3 bar/2.6 bar (Daniel Edgington-Mitchell).png",
+      "pressureBar": 3,
+      "sourcePressureBar": 2.6,
+      "mach": 1.348332583287336,
+      "features": [
+        0.244024658203125,
+        0.15291479405321248,
+        1.0,
+        0.275390625,
+        0.012664167553770776,
+        0.0
+      ]
+    },
+    {
+      "source": "2.9bar(E. Rajakuperan, M. A. Ramaswamy).png",
+      "file": "Bar Images/2.1-3 bar/2.9bar(E. Rajakuperan, M. A. Ramaswamy).png",
+      "pressureBar": 3,
+      "sourcePressureBar": 2.9,
+      "mach": 1.348332583287336,
+      "features": [
+        0.27337646484375,
+        0.1506419800951074,
+        1.0,
+        0.294140625,
+        0.007797649794933843,
+        0.0
+      ]
+    },
+    {
+      "source": "3 bar (Criag A).png",
+      "file": "Bar Images/2.1-3 bar/3 bar (Criag A).png",
+      "pressureBar": 3,
+      "sourcePressureBar": 3.0,
+      "mach": 1.348332583287336,
+      "features": [
+        0.130810546875,
+        0.15508999526302641,
+        1.0,
+        0.1765625,
+        0.020531022314931834,
+        0.0
+      ]
+    },
+    {
+      "source": "3.2 bar (Thomas Knast,\u2217 Graham Bell,\u2217 Marcus Wong).png",
+      "file": "Bar Images/3.1-4 bar/3.2 bar (Thomas Knast,\u2217 Graham Bell,\u2217 Marcus Wong).png",
+      "pressureBar": 3,
+      "sourcePressureBar": 3.2,
+      "mach": 1.348332583287336,
+      "features": [
+        0.242047119140625,
+        0.14333033232408807,
+        1.0,
+        0.2828125,
+        0.009013889350143134,
+        0.0
+      ]
+    },
+    {
+      "source": "3.4 bar ( Criag A).png",
+      "file": "Bar Images/3.1-4 bar/3.4 bar ( Criag A).png",
+      "pressureBar": 3,
+      "sourcePressureBar": 3.4,
+      "mach": 1.348332583287336,
+      "features": [
+        0.158843994140625,
+        0.15426984228654006,
+        1.0,
+        0.221875,
+        0.01900639253504136,
+        0.0
+      ]
+    },
+    {
+      "source": "4 bar (Dhruv Dwivedi, Aqib Khan, Rakesh Kumar, S. Mohammed Ibrahim).png",
+      "file": "Bar Images/3.1-4 bar/4 bar (Dhruv Dwivedi, Aqib Khan, Rakesh Kumar, S. Mohammed Ibrahim).png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.0,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.269818115234375,
+        0.1576964718607892,
+        1.0,
+        0.303515625,
+        0.0060284263947430776,
+        0.0
+      ]
+    },
+    {
+      "source": "4.2 bar (Daniel Michael Edgington-Mitchell).png",
+      "file": "Bar Images/4.1-5 bar/4.2 bar (Daniel Michael Edgington-Mitchell).png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.2,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.25533447265625,
+        0.1566200458711618,
+        1.0,
+        0.2890625,
+        0.010200860453586952,
+        0.0
+      ]
+    },
+    {
+      "source": "4.4 bar (Thomas Knast,\u2217 Graham Bell,\u2217 Marcus Wong).png",
+      "file": "Bar Images/4.1-5 bar/4.4 bar (Thomas Knast,\u2217 Graham Bell,\u2217 Marcus Wong).png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.4,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.2446044921875,
+        0.13032030051821208,
+        1.0,
+        0.2859375,
+        0.006667243265638164,
+        0.0
+      ]
+    },
+    {
+      "source": "4.5 bar (K. Schomberg and J. Olsen).png",
+      "file": "Bar Images/4.1-5 bar/4.5 bar (K. Schomberg and J. Olsen).png",
+      "pressureBar": 5,
+      "sourcePressureBar": 4.5,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.255267333984375,
+        0.138817910273526,
+        1.0,
+        0.278125,
+        0.007020905438591452,
+        0.0
+      ]
+    },
+    {
+      "source": "5 Bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "file": "Bar Images/4.1-5 bar/5 Bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "pressureBar": 5,
+      "sourcePressureBar": 5.0,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.201385498046875,
+        0.12364081398249982,
+        1.0,
+        0.24375,
+        0.011591455048205806,
+        0.0
+      ]
+    },
+    {
+      "source": "5.2bar (E. Rajakuperan, M. A. Ramaswamy).png",
+      "file": "Bar Images/5.1-6 bar/5.2bar (E. Rajakuperan, M. A. Ramaswamy).png",
+      "pressureBar": 5,
+      "sourcePressureBar": 5.2,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.2576904296875,
+        0.15310641371858552,
+        1.0,
+        0.290625,
+        0.009246035183177275,
+        0.0
+      ]
+    },
+    {
+      "source": "5.5 bar (K. Schomberg and J. Olsen).png",
+      "file": "Bar Images/5.1-6 bar/5.5 bar (K. Schomberg and J. Olsen).png",
+      "pressureBar": 6,
+      "sourcePressureBar": 5.5,
+      "mach": 1.8196801957787851,
+      "features": [
+        0.251190185546875,
+        0.15859590643840868,
+        1.0,
+        0.283203125,
+        0.007385789179334454,
+        0.0
+      ]
+    },
+    {
+      "source": "6 bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "file": "Bar Images/5.1-6 bar/6 bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "pressureBar": 6,
+      "sourcePressureBar": 6.0,
+      "mach": 1.8196801957787851,
+      "features": [
+        0.25606689453125,
+        0.19053993528045882,
+        1.0,
+        0.29140625,
+        0.00731814702351888,
+        0.0
+      ]
+    },
+    {
+      "source": "6.3 Bar (Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/6.1-7 bar/6.3 Bar (Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 6,
+      "sourcePressureBar": 6.3,
+      "mach": 1.8196801957787851,
+      "features": [
+        0.20330810546875,
+        0.17302302417515583,
+        1.0,
+        0.237890625,
+        0.014169982835358265,
+        0.0
+      ]
+    },
+    {
+      "source": "6.5 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/6.1-7 bar/6.5 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 7,
+      "sourcePressureBar": 6.5,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.1842041015625,
+        0.1480589632416926,
+        1.0,
+        0.242578125,
+        0.018733780056822535,
+        0.0
+      ]
+    },
+    {
+      "source": "7bar(Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "file": "Bar Images/6.1-7 bar/7bar(Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.0,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.275225830078125,
+        0.15618474873882407,
+        1.0,
+        0.3078125,
+        0.007911211836571787,
+        0.0
+      ]
+    },
+    {
+      "source": "7.1 bar (Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/7.1-8 bar/7.1 bar (Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.1,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.193359375,
+        0.15387186847301665,
+        1.0,
+        0.240625,
+        0.01491234162274529,
+        0.0
+      ]
+    },
+    {
+      "source": "7.2 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/7.1-8 bar/7.2 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.2,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.196221923828125,
+        0.1601218747081298,
+        1.0,
+        0.237890625,
+        0.013063989901075176,
+        0.0
+      ]
+    },
+    {
+      "source": "7.5 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/7.1-8 bar/7.5 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 8,
+      "sourcePressureBar": 7.5,
+      "mach": 2.005801006335996,
+      "features": [
+        0.19766845703125,
+        0.14139529864671635,
+        1.0,
+        0.2390625,
+        0.01845530528648227,
+        0.0
+      ]
+    },
+    {
+      "source": "7.7 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/7.1-8 bar/7.7 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 8,
+      "sourcePressureBar": 7.7,
+      "mach": 2.005801006335996,
+      "features": [
+        0.1972900390625,
+        0.18203995914105103,
+        1.0,
+        0.239453125,
+        0.012958405064601525,
+        0.0
+      ]
+    },
+    {
+      "source": "7.8 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/7.1-8 bar/7.8 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 8,
+      "sourcePressureBar": 7.8,
+      "mach": 2.005801006335996,
+      "features": [
+        0.1933349609375,
+        0.18838360407387994,
+        1.0,
+        0.2296875,
+        0.015545967513439701,
+        0.0
+      ]
+    },
+    {
+      "source": "8 bar(Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "file": "Bar Images/7.1-8 bar/8 bar(Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.0,
+      "mach": 2.005801006335996,
+      "features": [
+        0.2458740234375,
+        0.15092596888000281,
+        1.0,
+        0.2859375,
+        0.009043156866933785,
+        0.0
+      ]
+    },
+    {
+      "source": "8.1 Bar ( Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/8.1-9 bar/8.1 Bar ( Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.1,
+      "mach": 2.005801006335996,
+      "features": [
+        0.180731201171875,
+        0.14428308900874934,
+        1.0,
+        0.223828125,
+        0.019202230490890204,
+        0.0
+      ]
+    },
+    {
+      "source": "8.2 bar (Sher Afghan Khana, Omar Mohamed Ibrahima, Abdul Aabid).png",
+      "file": "Bar Images/8.1-9 bar/8.2 bar (Sher Afghan Khana, Omar Mohamed Ibrahima, Abdul Aabid).png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.2,
+      "mach": 2.005801006335996,
+      "features": [
+        0.230206298828125,
+        0.13878645422795602,
+        1.0,
+        0.2421875,
+        0.009461385128544827,
+        0.0
+      ]
+    },
+    {
+      "source": "8.3 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/8.1-9 bar/8.3 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.3,
+      "mach": 2.005801006335996,
+      "features": [
+        0.192523193359375,
+        0.15185456326567523,
+        1.0,
+        0.236328125,
+        0.015095804251876533,
+        0.0
+      ]
+    },
+    {
+      "source": "8.4 bar ( yinhai Zhu, Jiang).png",
+      "file": "Bar Images/8.1-9 bar/8.4 bar ( yinhai Zhu, Jiang).png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.4,
+      "mach": 2.005801006335996,
+      "features": [
+        0.19639892578125,
+        0.17410946413405276,
+        1.0,
+        0.228515625,
+        0.014224937850353765,
+        0.0
+      ]
+    },
+    {
+      "source": "8.6 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/8.1-9 bar/8.6 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.6,
+      "mach": 2.081359518366541,
+      "features": [
+        0.19150390625,
+        0.1396395622426289,
+        1.0,
+        0.228125,
+        0.0172514186185949,
+        0.0
+      ]
+    },
+    {
+      "source": "8.7 Bar (Criag A).png",
+      "file": "Bar Images/8.1-9 bar/8.7 Bar (Criag A).png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.7,
+      "mach": 2.081359518366541,
+      "features": [
+        0.142169189453125,
+        0.15263944696109555,
+        1.0,
+        0.2015625,
+        0.018233491860184015,
+        0.0
+      ]
+    },
+    {
+      "source": "8.9 bar (Criag A).png",
+      "file": "Bar Images/8.1-9 bar/8.9 bar (Criag A).png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.9,
+      "mach": 2.081359518366541,
+      "features": [
+        0.13050537109375,
+        0.17514708670654458,
+        1.0,
+        0.19375,
+        0.017696245978860294,
+        0.0
+      ]
+    },
+    {
+      "source": "9 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "file": "Bar Images/8.1-9 bar/9 bar ( Yinhai Zhu, Peixue Jiang).png",
+      "pressureBar": 9,
+      "sourcePressureBar": 9.0,
+      "mach": 2.081359518366541,
+      "features": [
+        0.187774658203125,
+        0.17029531942622564,
+        1.0,
+        0.2375,
+        0.015371155271343157,
+        0.0
+      ]
+    },
+    {
+      "source": "10 bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "file": "Bar Images/9.1-10 bar/10 bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+      "pressureBar": 10,
+      "sourcePressureBar": 10.0,
+      "mach": 2.148779065867269,
+      "features": [
+        0.213372802734375,
+        0.1582112499921861,
+        1.0,
+        0.2640625,
+        0.008070741915235333,
+        0.0
+      ]
+    },
+    {
+      "source": "9.1 bar ( Yinhai Zhu, Jiang).png",
+      "file": "Bar Images/9.1-10 bar/9.1 bar ( Yinhai Zhu, Jiang).png",
+      "pressureBar": 9,
+      "sourcePressureBar": 9.1,
+      "mach": 2.081359518366541,
+      "features": [
+        0.19105224609375,
+        0.15853788747962164,
+        1.0,
+        0.2421875,
+        0.018174235026041666,
+        0.0
+      ]
+    },
+    {
+      "source": "9.2 bar ( Yinhai Zhu, Jiang).png",
+      "file": "Bar Images/9.1-10 bar/9.2 bar ( Yinhai Zhu, Jiang).png",
+      "pressureBar": 9,
+      "sourcePressureBar": 9.2,
+      "mach": 2.081359518366541,
+      "features": [
+        0.18072509765625,
+        0.1608294815746677,
+        1.0,
+        0.21796875,
+        0.020473280139997895,
+        0.0
+      ]
+    },
+    {
+      "source": "4.1 Bar (Cornelio Alvarez-Herrera ).png",
+      "file": "Bar Images/Area Ratio 1/4.1 Bar (Cornelio Alvarez-Herrera ).png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.1,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.255224609375,
+        0.16676927492761667,
+        1.0,
+        0.296875,
+        0.007508722473593319,
+        0.0
+      ]
+    },
+    {
+      "source": "5.4 bar.png",
+      "file": "Bar Images/Area Ratio 1/5.4 bar.png",
+      "pressureBar": 5,
+      "sourcePressureBar": 5.4,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.254449462890625,
+        0.12968245648074447,
+        1.0,
+        0.303515625,
+        0.009247357237572763,
+        0.0
+      ]
+    },
+    {
+      "source": "6.8 Bar.png",
+      "file": "Bar Images/Area Ratio 1/6.8 Bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 6.8,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.242547607421875,
+        0.15982824092050377,
+        1.0,
+        0.29375,
+        0.011748702853333716,
+        0.0
+      ]
+    },
+    {
+      "source": "7.4 bar.png",
+      "file": "Bar Images/Area Ratio 1/7.4 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.4,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.251593017578125,
+        0.12393272490790237,
+        1.0,
+        0.303125,
+        0.00966659433701459,
+        0.0
+      ]
+    },
+    {
+      "source": "8.2 Bar.png",
+      "file": "Bar Images/Area Ratio 1/8.2 Bar.png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.2,
+      "mach": 2.005801006335996,
+      "features": [
+        0.248480224609375,
+        0.12246365398596634,
+        1.0,
+        0.30625,
+        0.010672745985143325,
+        0.0
+      ]
+    },
+    {
+      "source": "8.8 Bar.png",
+      "file": "Bar Images/Area Ratio 1/8.8 Bar.png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.8,
+      "mach": 2.081359518366541,
+      "features": [
+        0.25220947265625,
+        0.15229979389869544,
+        1.0,
+        0.300390625,
+        0.009450619828467276,
+        0.0
+      ]
+    },
+    {
+      "source": "9.5 bar.png",
+      "file": "Bar Images/Area Ratio 1/9.5 bar.png",
+      "pressureBar": 10,
+      "sourcePressureBar": 9.5,
+      "mach": 2.148779065867269,
+      "features": [
+        0.241845703125,
+        0.16161924770790637,
+        1.0,
+        0.294140625,
+        0.012223519530950808,
+        0.0
+      ]
+    },
+    {
+      "source": "4.1 bar.png",
+      "file": "Bar Images/Area Ratio 1.83/4.1 bar.png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.1,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.2398681640625,
+        0.20963354673409615,
+        1.0,
+        0.28125,
+        0.010731377321131089,
+        0.0
+      ]
+    },
+    {
+      "source": "5.4 Bar.png",
+      "file": "Bar Images/Area Ratio 1.83/5.4 Bar.png",
+      "pressureBar": 5,
+      "sourcePressureBar": 5.4,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.260125732421875,
+        0.14676882817501866,
+        1.0,
+        0.298828125,
+        0.008616998148899453,
+        0.0
+      ]
+    },
+    {
+      "source": "6.8 Bar.png",
+      "file": "Bar Images/Area Ratio 1.83/6.8 Bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 6.8,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.25360107421875,
+        0.11562747289221859,
+        1.0,
+        0.3,
+        0.01090097520865646,
+        0.0
+      ]
+    },
+    {
+      "source": "7.4 Bar.png",
+      "file": "Bar Images/Area Ratio 1.83/7.4 Bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.4,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.25379638671875,
+        0.10746096683052507,
+        1.0,
+        0.3015625,
+        0.010051734774720435,
+        0.0
+      ]
+    },
+    {
+      "source": "8.2 Bar.png",
+      "file": "Bar Images/Area Ratio 1.83/8.2 Bar.png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.2,
+      "mach": 2.005801006335996,
+      "features": [
+        0.25548095703125,
+        0.10059474112749578,
+        1.0,
+        0.30625,
+        0.00915847292133406,
+        0.0
+      ]
+    },
+    {
+      "source": "8.8 bar.png",
+      "file": "Bar Images/Area Ratio 1.83/8.8 bar.png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.8,
+      "mach": 2.081359518366541,
+      "features": [
+        0.2534423828125,
+        0.1477196072413357,
+        1.0,
+        0.3,
+        0.009770977730844534,
+        0.0
+      ]
+    },
+    {
+      "source": "9.5 bar.png",
+      "file": "Bar Images/Area Ratio 1.83/9.5 bar.png",
+      "pressureBar": 10,
+      "sourcePressureBar": 9.5,
+      "mach": 2.148779065867269,
+      "features": [
+        0.258648681640625,
+        0.12396411184322872,
+        1.0,
+        0.30625,
+        0.008242743623022939,
+        0.0
+      ]
+    },
+    {
+      "source": "4.1 bar.png",
+      "file": "Bar Images/Area Ratio 1.96/4.1 bar.png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.1,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.230889892578125,
+        0.09392414971361841,
+        1.0,
+        0.265625,
+        0.010049668480368222,
+        0.0
+      ]
+    },
+    {
+      "source": "5.4 bar.png",
+      "file": "Bar Images/Area Ratio 1.96/5.4 bar.png",
+      "pressureBar": 5,
+      "sourcePressureBar": 5.4,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.236083984375,
+        0.13356116628296247,
+        1.0,
+        0.284375,
+        0.011282174727495979,
+        0.0
+      ]
+    },
+    {
+      "source": "6.8 bar.png",
+      "file": "Bar Images/Area Ratio 1.96/6.8 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 6.8,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.25240478515625,
+        0.1369325324220952,
+        1.0,
+        0.289453125,
+        0.01033472734339097,
+        0.0
+      ]
+    },
+    {
+      "source": "7.4 bar.png",
+      "file": "Bar Images/Area Ratio 1.96/7.4 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.4,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.25972900390625,
+        0.1413540176307947,
+        1.0,
+        0.2953125,
+        0.00957338482725854,
+        0.0
+      ]
+    },
+    {
+      "source": "8.2 bar.png",
+      "file": "Bar Images/Area Ratio 1.96/8.2 bar.png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.2,
+      "mach": 2.005801006335996,
+      "features": [
+        0.26439208984375,
+        0.14011826365433086,
+        1.0,
+        0.296875,
+        0.007894271027808096,
+        0.0
+      ]
+    },
+    {
+      "source": "8.8 bar.png",
+      "file": "Bar Images/Area Ratio 1.96/8.8 bar.png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.8,
+      "mach": 2.081359518366541,
+      "features": [
+        0.25660400390625,
+        0.1279516643559337,
+        1.0,
+        0.296875,
+        0.00897058786130419,
+        0.0
+      ]
+    },
+    {
+      "source": "9.5 bar.png",
+      "file": "Bar Images/Area Ratio 1.96/9.5 bar.png",
+      "pressureBar": 10,
+      "sourcePressureBar": 9.5,
+      "mach": 2.148779065867269,
+      "features": [
+        0.261468505859375,
+        0.11119346938184034,
+        1.0,
+        0.291015625,
+        0.005462201903848087,
+        0.0
+      ]
+    },
+    {
+      "source": "4.1 bar.png",
+      "file": "Bar Images/Area Ratio 2.98/4.1 bar.png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.1,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.236962890625,
+        0.14347726790714305,
+        1.0,
+        0.271875,
+        0.011468834035536822,
+        0.0
+      ]
+    },
+    {
+      "source": "5.4 bar.png",
+      "file": "Bar Images/Area Ratio 2.98/5.4 bar.png",
+      "pressureBar": 5,
+      "sourcePressureBar": 5.4,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.25306396484375,
+        0.14397948967783641,
+        1.0,
+        0.286328125,
+        0.007523956953310499,
+        0.0
+      ]
+    },
+    {
+      "source": "6.8 bar.png",
+      "file": "Bar Images/Area Ratio 2.98/6.8 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 6.8,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.2603515625,
+        0.14033889271788683,
+        1.0,
+        0.2984375,
+        0.008620986751481598,
+        0.0
+      ]
+    },
+    {
+      "source": "7.4 bar.png",
+      "file": "Bar Images/Area Ratio 2.98/7.4 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.4,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.241650390625,
+        0.12965605519656878,
+        1.0,
+        0.294140625,
+        0.01068120470233992,
+        0.0
+      ]
+    },
+    {
+      "source": "8.2 bar.png",
+      "file": "Bar Images/Area Ratio 2.98/8.2 bar.png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.2,
+      "mach": 2.005801006335996,
+      "features": [
+        0.264984130859375,
+        0.11983610498758196,
+        1.0,
+        0.3125,
+        0.011016051909502814,
+        0.0
+      ]
+    },
+    {
+      "source": "8.8 bar.png",
+      "file": "Bar Images/Area Ratio 2.98/8.8 bar.png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.8,
+      "mach": 2.081359518366541,
+      "features": [
+        0.25667724609375,
+        0.5,
+        1.0,
+        0.296875,
+        0.008507040435192632,
+        0.0
+      ]
+    },
+    {
+      "source": "9.5 bar.png",
+      "file": "Bar Images/Area Ratio 2.98/9.5 bar.png",
+      "pressureBar": 10,
+      "sourcePressureBar": 9.5,
+      "mach": 2.148779065867269,
+      "features": [
+        0.2554443359375,
+        0.14731511555550592,
+        1.0,
+        0.3078125,
+        0.01047806178822237,
+        0.0
+      ]
+    },
+    {
+      "source": "4.1 bar.png",
+      "file": "Bar Images/Area Ratio 3.06/4.1 bar.png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.1,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.20936279296875,
+        0.1369305267806619,
+        1.0,
+        0.239453125,
+        0.014402826159608131,
+        0.0
+      ]
+    },
+    {
+      "source": "5.4 bar.png",
+      "file": "Bar Images/Area Ratio 3.06/5.4 bar.png",
+      "pressureBar": 5,
+      "sourcePressureBar": 5.4,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.23768310546875,
+        0.14833377368066458,
+        1.0,
+        0.271875,
+        0.010261005513808307,
+        0.0
+      ]
+    },
+    {
+      "source": "6.8 bar.png",
+      "file": "Bar Images/Area Ratio 3.06/6.8 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 6.8,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.24495849609375,
+        0.16912080216186864,
+        1.0,
+        0.275390625,
+        0.008047721900191962,
+        0.0
+      ]
+    },
+    {
+      "source": "7.4 bar.png",
+      "file": "Bar Images/Area Ratio 3.06/7.4 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.4,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.245281982421875,
+        0.12254927801872717,
+        1.0,
+        0.287890625,
+        0.010630238289926566,
+        0.0
+      ]
+    },
+    {
+      "source": "8.2 bar.png",
+      "file": "Bar Images/Area Ratio 3.06/8.2 bar.png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.2,
+      "mach": 2.005801006335996,
+      "features": [
+        0.25133056640625,
+        0.11188886270114724,
+        1.0,
+        0.290625,
+        0.008491229076011507,
+        0.0
+      ]
+    },
+    {
+      "source": "8.8 bar.png",
+      "file": "Bar Images/Area Ratio 3.06/8.8 bar.png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.8,
+      "mach": 2.081359518366541,
+      "features": [
+        0.256927490234375,
+        0.17020653180361184,
+        1.0,
+        0.3,
+        0.009454608431049422,
+        0.0
+      ]
+    },
+    {
+      "source": "9.5 bar.png",
+      "file": "Bar Images/Area Ratio 3.06/9.5 bar.png",
+      "pressureBar": 10,
+      "sourcePressureBar": 9.5,
+      "mach": 2.148779065867269,
+      "features": [
+        0.25394287109375,
+        0.1562958371092497,
+        1.0,
+        0.291015625,
+        0.010393382053749234,
+        0.0
+      ]
+    },
+    {
+      "source": "4.1 bar.png",
+      "file": "Bar Images/Area Ratio 5.52/4.1 bar.png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.1,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.180853271484375,
+        0.14216620291819354,
+        1.0,
+        0.203515625,
+        0.016782055649102904,
+        0.0
+      ]
+    },
+    {
+      "source": "5.4 bar.png",
+      "file": "Bar Images/Area Ratio 5.52/5.4 bar.png",
+      "pressureBar": 5,
+      "sourcePressureBar": 5.4,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.18763427734375,
+        0.13554357265291314,
+        1.0,
+        0.217578125,
+        0.013645280576219746,
+        0.0
+      ]
+    },
+    {
+      "source": "6.8 bar.png",
+      "file": "Bar Images/Area Ratio 5.52/6.8 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 6.8,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.233404541015625,
+        0.15810802063213011,
+        1.0,
+        0.265625,
+        0.010448913948208677,
+        0.0
+      ]
+    },
+    {
+      "source": "7.4 bar.png",
+      "file": "Bar Images/Area Ratio 5.52/7.4 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.4,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.237335205078125,
+        0.14609555049510445,
+        1.0,
+        0.2734375,
+        0.010274077396766812,
+        0.0
+      ]
+    },
+    {
+      "source": "8.2 bar.png",
+      "file": "Bar Images/Area Ratio 5.52/8.2 bar.png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.2,
+      "mach": 2.005801006335996,
+      "features": [
+        0.25546875,
+        0.1360623847675519,
+        1.0,
+        0.291015625,
+        0.009579656638351142,
+        0.0
+      ]
+    },
+    {
+      "source": "8.8 bar.png",
+      "file": "Bar Images/Area Ratio 5.52/8.8 bar.png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.8,
+      "mach": 2.081359518366541,
+      "features": [
+        0.238763427734375,
+        0.14181693455195551,
+        1.0,
+        0.2796875,
+        0.010686635036094516,
+        0.0
+      ]
+    },
+    {
+      "source": "9.5 bar.png",
+      "file": "Bar Images/Area Ratio 5.52/9.5 bar.png",
+      "pressureBar": 10,
+      "sourcePressureBar": 9.5,
+      "mach": 2.148779065867269,
+      "features": [
+        0.249005126953125,
+        0.12675640018740802,
+        1.0,
+        0.290625,
+        0.010891027076571596,
+        0.0
+      ]
+    },
+    {
+      "source": "4.1 bar.png",
+      "file": "Bar Images/Area Ratio 6.17/4.1 bar.png",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.1,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.19188232421875,
+        0.143929320237936,
+        1.0,
+        0.212890625,
+        0.015694876278147977,
+        0.0
+      ]
+    },
+    {
+      "source": "5.4 bar.png",
+      "file": "Bar Images/Area Ratio 6.17/5.4 bar.png",
+      "pressureBar": 5,
+      "sourcePressureBar": 5.4,
+      "mach": 1.6998151110236839,
+      "features": [
+        0.187213134765625,
+        0.1271459417323865,
+        1.0,
+        0.2171875,
+        0.013280132705090092,
+        0.0
+      ]
+    },
+    {
+      "source": "6.8 bar.png",
+      "file": "Bar Images/Area Ratio 6.17/6.8 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 6.8,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.23448486328125,
+        0.16863252880651888,
+        1.0,
+        0.271875,
+        0.009110414280610926,
+        0.0
+      ]
+    },
+    {
+      "source": "7.4 bar.png",
+      "file": "Bar Images/Area Ratio 6.17/7.4 bar.png",
+      "pressureBar": 7,
+      "sourcePressureBar": 7.4,
+      "mach": 1.9197575097548436,
+      "features": [
+        0.240594482421875,
+        0.15060316357426887,
+        1.0,
+        0.28125,
+        0.009039792827531402,
+        0.0
+      ]
+    },
+    {
+      "source": "8.2 bar.png",
+      "file": "Bar Images/Area Ratio 6.17/8.2 bar.png",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.2,
+      "mach": 2.005801006335996,
+      "features": [
+        0.25057373046875,
+        0.14596257197399368,
+        1.0,
+        0.290625,
+        0.009025831783519072,
+        0.0
+      ]
+    },
+    {
+      "source": "8.8 bar.png",
+      "file": "Bar Images/Area Ratio 6.17/8.8 bar.png",
+      "pressureBar": 9,
+      "sourcePressureBar": 8.8,
+      "mach": 2.081359518366541,
+      "features": [
+        0.243756103515625,
+        0.14492633182217526,
+        1.0,
+        0.29375,
+        0.010341478796566234,
+        0.0
+      ]
+    },
+    {
+      "source": "9.5 bar.png",
+      "file": "Bar Images/Area Ratio 6.17/9.5 bar.png",
+      "pressureBar": 10,
+      "sourcePressureBar": 9.5,
+      "mach": 2.148779065867269,
+      "features": [
+        0.2544189453125,
+        0.14357132595929556,
+        1.0,
+        0.292578125,
+        0.0067751103756474515,
+        0.0
+      ]
+    },
+    {
+      "source": "Circle1semi-circle-4bar.jpg",
+      "file": "training-images/4-bar/Circle1semi-circle-4bar.jpg",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.0,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.29598388671875,
+        0.13958905889121165,
+        1.0,
+        0.314453125,
+        0.0034927672030879,
+        0.0
+      ]
+    },
+    {
+      "source": "Circle-4bar-1.jpg",
+      "file": "training-images/4-bar/Circle-4bar-1.jpg",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.0,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.2750244140625,
+        0.13134555416537022,
+        1.0,
+        0.29375,
+        0.004423322864607269,
+        0.0
+      ]
+    },
+    {
+      "source": "Circle2semi-circle-4bar.jpg",
+      "file": "training-images/4-bar/Circle2semi-circle-4bar.jpg",
+      "pressureBar": 4,
+      "sourcePressureBar": 4.0,
+      "mach": 1.5498647980125553,
+      "features": [
+        0.28394775390625,
+        0.14194724481927962,
+        1.0,
+        0.309375,
+        0.005114138827604406,
+        0.0
+      ]
+    },
+    {
+      "source": "circle1semi-circle-6bar.jpg",
+      "file": "training-images/6-bar/circle1semi-circle-6bar.jpg",
+      "pressureBar": 6,
+      "sourcePressureBar": 6.0,
+      "mach": 1.8196801957787851,
+      "features": [
+        0.285687255859375,
+        0.13244797234929365,
+        1.0,
+        0.3078125,
+        0.00489049892799527,
+        0.0
+      ]
+    },
+    {
+      "source": "Circle-2semi-circle-grooves-6bar.JPG",
+      "file": "training-images/6-bar/Circle-2semi-circle-grooves-6bar.JPG",
+      "pressureBar": 6,
+      "sourcePressureBar": 6.0,
+      "mach": 1.8196801957787851,
+      "features": [
+        0.248541259765625,
+        0.1534871963847281,
+        1.0,
+        0.269140625,
+        0.006344290808135388,
+        0.0
+      ]
+    },
+    {
+      "source": "Circle-6bar-1.jpg",
+      "file": "training-images/6-bar/Circle-6bar-1.jpg",
+      "pressureBar": 6,
+      "sourcePressureBar": 6.0,
+      "mach": 1.8196801957787851,
+      "features": [
+        0.268426513671875,
+        0.1384852096003228,
+        1.0,
+        0.2890625,
+        0.005483588050393497,
+        0.0
+      ]
+    },
+    {
+      "source": "Circle1semi-circle-8bar.JPG",
+      "file": "training-images/8-bar/Circle1semi-circle-8bar.JPG",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.0,
+      "mach": 2.005801006335996,
+      "features": [
+        0.245086669921875,
+        0.18735970222742437,
+        1.0,
+        0.264453125,
+        0.004973567700853535,
+        0.0
+      ]
+    },
+    {
+      "source": "Circle2semi-circle-8bar.jpg",
+      "file": "training-images/8-bar/Circle2semi-circle-8bar.jpg",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.0,
+      "mach": 2.005801006335996,
+      "features": [
+        0.2497802734375,
+        0.1792757637270378,
+        1.0,
+        0.2734375,
+        0.007564855089374617,
+        0.0
+      ]
+    },
+    {
+      "source": "Circle-8bar-2.JPG",
+      "file": "training-images/8-bar/Circle-8bar-2.JPG",
+      "pressureBar": 8,
+      "sourcePressureBar": 8.0,
+      "mach": 2.005801006335996,
+      "features": [
+        0.2599853515625,
+        0.16151612106392887,
+        1.0,
+        0.2796875,
+        0.004124230964511049,
+        0.0
+      ]
+    }
+  ],
+  "validation": {
+    "strategy": "leave-one-image-out",
+    "pixelTrainedRecords": 97,
+    "metadataOnlyRecords": 0,
+    "maeMach": 0.2091418639047776,
+    "rmseMach": 0.285303704684917,
+    "warning": "Small prototype dataset; validation is descriptive, not publication-grade."
+  }
+}

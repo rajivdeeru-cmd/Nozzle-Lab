@@ -1,0 +1,778 @@
+﻿[
+    {
+        "file":  "Bar Images/1-2 bar/1.4 bar ( Criag A).png",
+        "filename":  "1.4 bar ( Criag A).png",
+        "sourceGroup":  "1-2 bar",
+        "pressureBar":  1.4,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/1-2 bar/1.6 bar (Criag A).png",
+        "filename":  "1.6 bar (Criag A).png",
+        "sourceGroup":  "1-2 bar",
+        "pressureBar":  1.6,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/1-2 bar/1.8 Bar (Criag A).png",
+        "filename":  "1.8 Bar (Criag A).png",
+        "sourceGroup":  "1-2 bar",
+        "pressureBar":  1.8,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/1-2 bar/1.9 bar (Parviz Behrouzi and James J. McGuirk paper).png",
+        "filename":  "1.9 bar (Parviz Behrouzi and James J. McGuirk paper).png",
+        "sourceGroup":  "1-2 bar",
+        "pressureBar":  1.9,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/2.1-3 bar/2.3 bar (Tong Feng \u0026 James J. McGuirk).png",
+        "filename":  "2.3 bar (Tong Feng \u0026 James J. McGuirk).png",
+        "sourceGroup":  "2.1-3 bar",
+        "pressureBar":  2.3,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/2.1-3 bar/2.4 bar (Criag A).png",
+        "filename":  "2.4 bar (Criag A).png",
+        "sourceGroup":  "2.1-3 bar",
+        "pressureBar":  2.4,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/2.1-3 bar/2.6 bar (Daniel Edgington-Mitchell).png",
+        "filename":  "2.6 bar (Daniel Edgington-Mitchell).png",
+        "sourceGroup":  "2.1-3 bar",
+        "pressureBar":  2.6,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/2.1-3 bar/2.9bar(E. Rajakuperan, M. A. Ramaswamy).png",
+        "filename":  "2.9bar(E. Rajakuperan, M. A. Ramaswamy).png",
+        "sourceGroup":  "2.1-3 bar",
+        "pressureBar":  2.9,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/2.1-3 bar/3 bar (Criag A).png",
+        "filename":  "3 bar (Criag A).png",
+        "sourceGroup":  "2.1-3 bar",
+        "pressureBar":  3,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/3.1-4 bar/3.2 bar (Thomas Knast,∗ Graham Bell,∗ Marcus Wong).png",
+        "filename":  "3.2 bar (Thomas Knast,∗ Graham Bell,∗ Marcus Wong).png",
+        "sourceGroup":  "3.1-4 bar",
+        "pressureBar":  3.2,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/3.1-4 bar/3.4 bar ( Criag A).png",
+        "filename":  "3.4 bar ( Criag A).png",
+        "sourceGroup":  "3.1-4 bar",
+        "pressureBar":  3.4,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/3.1-4 bar/4 bar (Dhruv Dwivedi, Aqib Khan, Rakesh Kumar, S. Mohammed Ibrahim).png",
+        "filename":  "4 bar (Dhruv Dwivedi, Aqib Khan, Rakesh Kumar, S. Mohammed Ibrahim).png",
+        "sourceGroup":  "3.1-4 bar",
+        "pressureBar":  4,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/4.1-5 bar/4.2 bar (Daniel Michael Edgington-Mitchell).png",
+        "filename":  "4.2 bar (Daniel Michael Edgington-Mitchell).png",
+        "sourceGroup":  "4.1-5 bar",
+        "pressureBar":  4.2,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/4.1-5 bar/4.4 bar (Thomas Knast,∗ Graham Bell,∗ Marcus Wong).png",
+        "filename":  "4.4 bar (Thomas Knast,∗ Graham Bell,∗ Marcus Wong).png",
+        "sourceGroup":  "4.1-5 bar",
+        "pressureBar":  4.4,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/4.1-5 bar/4.5 bar (K. Schomberg and J. Olsen).png",
+        "filename":  "4.5 bar (K. Schomberg and J. Olsen).png",
+        "sourceGroup":  "4.1-5 bar",
+        "pressureBar":  4.5,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/4.1-5 bar/5 Bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "filename":  "5 Bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "sourceGroup":  "4.1-5 bar",
+        "pressureBar":  5,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/5.1-6 bar/5.2bar (E. Rajakuperan, M. A. Ramaswamy).png",
+        "filename":  "5.2bar (E. Rajakuperan, M. A. Ramaswamy).png",
+        "sourceGroup":  "5.1-6 bar",
+        "pressureBar":  5.2,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/5.1-6 bar/5.5 bar (K. Schomberg and J. Olsen).png",
+        "filename":  "5.5 bar (K. Schomberg and J. Olsen).png",
+        "sourceGroup":  "5.1-6 bar",
+        "pressureBar":  5.5,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/5.1-6 bar/6 bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "filename":  "6 bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "sourceGroup":  "5.1-6 bar",
+        "pressureBar":  6,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/6.1-7 bar/6.3 Bar (Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "6.3 Bar (Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "6.1-7 bar",
+        "pressureBar":  6.3,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/6.1-7 bar/6.5 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "6.5 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "6.1-7 bar",
+        "pressureBar":  6.5,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/6.1-7 bar/7bar(Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "filename":  "7bar(Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "sourceGroup":  "6.1-7 bar",
+        "pressureBar":  7,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/7.1-8 bar/7.1 bar (Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "7.1 bar (Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "7.1-8 bar",
+        "pressureBar":  7.1,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/7.1-8 bar/7.2 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "7.2 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "7.1-8 bar",
+        "pressureBar":  7.2,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/7.1-8 bar/7.5 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "7.5 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "7.1-8 bar",
+        "pressureBar":  7.5,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/7.1-8 bar/7.7 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "7.7 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "7.1-8 bar",
+        "pressureBar":  7.7,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/7.1-8 bar/7.8 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "7.8 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "7.1-8 bar",
+        "pressureBar":  7.8,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/7.1-8 bar/8 bar(Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "filename":  "8 bar(Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "sourceGroup":  "7.1-8 bar",
+        "pressureBar":  8,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/8.1-9 bar/8.1 Bar ( Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "8.1 Bar ( Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "8.1-9 bar",
+        "pressureBar":  8.1,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/8.1-9 bar/8.2 bar (Sher Afghan Khana, Omar Mohamed Ibrahima, Abdul Aabid).png",
+        "filename":  "8.2 bar (Sher Afghan Khana, Omar Mohamed Ibrahima, Abdul Aabid).png",
+        "sourceGroup":  "8.1-9 bar",
+        "pressureBar":  8.2,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/8.1-9 bar/8.3 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "8.3 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "8.1-9 bar",
+        "pressureBar":  8.3,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/8.1-9 bar/8.4 bar ( yinhai Zhu, Jiang).png",
+        "filename":  "8.4 bar ( yinhai Zhu, Jiang).png",
+        "sourceGroup":  "8.1-9 bar",
+        "pressureBar":  8.4,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/8.1-9 bar/8.6 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "8.6 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "8.1-9 bar",
+        "pressureBar":  8.6,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/8.1-9 bar/8.7 Bar (Criag A).png",
+        "filename":  "8.7 Bar (Criag A).png",
+        "sourceGroup":  "8.1-9 bar",
+        "pressureBar":  8.7,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/8.1-9 bar/8.9 bar (Criag A).png",
+        "filename":  "8.9 bar (Criag A).png",
+        "sourceGroup":  "8.1-9 bar",
+        "pressureBar":  8.9,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/8.1-9 bar/9 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "filename":  "9 bar ( Yinhai Zhu, Peixue Jiang).png",
+        "sourceGroup":  "8.1-9 bar",
+        "pressureBar":  9,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/9.1-10 bar/10 bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "filename":  "10 bar (Ambareen Khan, Nurul Musfirah Mazlan).png",
+        "sourceGroup":  "9.1-10 bar",
+        "pressureBar":  10,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/9.1-10 bar/9.1 bar ( Yinhai Zhu, Jiang).png",
+        "filename":  "9.1 bar ( Yinhai Zhu, Jiang).png",
+        "sourceGroup":  "9.1-10 bar",
+        "pressureBar":  9.1,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/9.1-10 bar/9.2 bar ( Yinhai Zhu, Jiang).png",
+        "filename":  "9.2 bar ( Yinhai Zhu, Jiang).png",
+        "sourceGroup":  "9.1-10 bar",
+        "pressureBar":  9.2,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1/4.1 Bar (Cornelio Alvarez-Herrera ).png",
+        "filename":  "4.1 Bar (Cornelio Alvarez-Herrera ).png",
+        "sourceGroup":  "Area Ratio 1",
+        "pressureBar":  4.1,
+        "areaRatio":  1,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1/5.4 bar.png",
+        "filename":  "5.4 bar.png",
+        "sourceGroup":  "Area Ratio 1",
+        "pressureBar":  5.4,
+        "areaRatio":  1,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1/6.8 Bar.png",
+        "filename":  "6.8 Bar.png",
+        "sourceGroup":  "Area Ratio 1",
+        "pressureBar":  6.8,
+        "areaRatio":  1,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1/7.4 bar.png",
+        "filename":  "7.4 bar.png",
+        "sourceGroup":  "Area Ratio 1",
+        "pressureBar":  7.4,
+        "areaRatio":  1,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1/8.2 Bar.png",
+        "filename":  "8.2 Bar.png",
+        "sourceGroup":  "Area Ratio 1",
+        "pressureBar":  8.2,
+        "areaRatio":  1,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1/8.8 Bar.png",
+        "filename":  "8.8 Bar.png",
+        "sourceGroup":  "Area Ratio 1",
+        "pressureBar":  8.8,
+        "areaRatio":  1,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1/9.5 bar.png",
+        "filename":  "9.5 bar.png",
+        "sourceGroup":  "Area Ratio 1",
+        "pressureBar":  9.5,
+        "areaRatio":  1,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.83/4.1 bar.png",
+        "filename":  "4.1 bar.png",
+        "sourceGroup":  "Area Ratio 1.83",
+        "pressureBar":  4.1,
+        "areaRatio":  1.83,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.83/5.4 Bar.png",
+        "filename":  "5.4 Bar.png",
+        "sourceGroup":  "Area Ratio 1.83",
+        "pressureBar":  5.4,
+        "areaRatio":  1.83,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.83/6.8 Bar.png",
+        "filename":  "6.8 Bar.png",
+        "sourceGroup":  "Area Ratio 1.83",
+        "pressureBar":  6.8,
+        "areaRatio":  1.83,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.83/7.4 Bar.png",
+        "filename":  "7.4 Bar.png",
+        "sourceGroup":  "Area Ratio 1.83",
+        "pressureBar":  7.4,
+        "areaRatio":  1.83,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.83/8.2 Bar.png",
+        "filename":  "8.2 Bar.png",
+        "sourceGroup":  "Area Ratio 1.83",
+        "pressureBar":  8.2,
+        "areaRatio":  1.83,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.83/8.8 bar.png",
+        "filename":  "8.8 bar.png",
+        "sourceGroup":  "Area Ratio 1.83",
+        "pressureBar":  8.8,
+        "areaRatio":  1.83,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.83/9.5 bar.png",
+        "filename":  "9.5 bar.png",
+        "sourceGroup":  "Area Ratio 1.83",
+        "pressureBar":  9.5,
+        "areaRatio":  1.83,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.96/4.1 bar.png",
+        "filename":  "4.1 bar.png",
+        "sourceGroup":  "Area Ratio 1.96",
+        "pressureBar":  4.1,
+        "areaRatio":  1.96,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.96/5.4 bar.png",
+        "filename":  "5.4 bar.png",
+        "sourceGroup":  "Area Ratio 1.96",
+        "pressureBar":  5.4,
+        "areaRatio":  1.96,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.96/6.8 bar.png",
+        "filename":  "6.8 bar.png",
+        "sourceGroup":  "Area Ratio 1.96",
+        "pressureBar":  6.8,
+        "areaRatio":  1.96,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.96/7.4 bar.png",
+        "filename":  "7.4 bar.png",
+        "sourceGroup":  "Area Ratio 1.96",
+        "pressureBar":  7.4,
+        "areaRatio":  1.96,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.96/8.2 bar.png",
+        "filename":  "8.2 bar.png",
+        "sourceGroup":  "Area Ratio 1.96",
+        "pressureBar":  8.2,
+        "areaRatio":  1.96,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.96/8.8 bar.png",
+        "filename":  "8.8 bar.png",
+        "sourceGroup":  "Area Ratio 1.96",
+        "pressureBar":  8.8,
+        "areaRatio":  1.96,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 1.96/9.5 bar.png",
+        "filename":  "9.5 bar.png",
+        "sourceGroup":  "Area Ratio 1.96",
+        "pressureBar":  9.5,
+        "areaRatio":  1.96,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 2.98/4.1 bar.png",
+        "filename":  "4.1 bar.png",
+        "sourceGroup":  "Area Ratio 2.98",
+        "pressureBar":  4.1,
+        "areaRatio":  2.98,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 2.98/5.4 bar.png",
+        "filename":  "5.4 bar.png",
+        "sourceGroup":  "Area Ratio 2.98",
+        "pressureBar":  5.4,
+        "areaRatio":  2.98,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 2.98/6.8 bar.png",
+        "filename":  "6.8 bar.png",
+        "sourceGroup":  "Area Ratio 2.98",
+        "pressureBar":  6.8,
+        "areaRatio":  2.98,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 2.98/7.4 bar.png",
+        "filename":  "7.4 bar.png",
+        "sourceGroup":  "Area Ratio 2.98",
+        "pressureBar":  7.4,
+        "areaRatio":  2.98,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 2.98/8.2 bar.png",
+        "filename":  "8.2 bar.png",
+        "sourceGroup":  "Area Ratio 2.98",
+        "pressureBar":  8.2,
+        "areaRatio":  2.98,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 2.98/8.8 bar.png",
+        "filename":  "8.8 bar.png",
+        "sourceGroup":  "Area Ratio 2.98",
+        "pressureBar":  8.8,
+        "areaRatio":  2.98,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 2.98/9.5 bar.png",
+        "filename":  "9.5 bar.png",
+        "sourceGroup":  "Area Ratio 2.98",
+        "pressureBar":  9.5,
+        "areaRatio":  2.98,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 3.06/4.1 bar.png",
+        "filename":  "4.1 bar.png",
+        "sourceGroup":  "Area Ratio 3.06",
+        "pressureBar":  4.1,
+        "areaRatio":  3.06,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 3.06/5.4 bar.png",
+        "filename":  "5.4 bar.png",
+        "sourceGroup":  "Area Ratio 3.06",
+        "pressureBar":  5.4,
+        "areaRatio":  3.06,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 3.06/6.8 bar.png",
+        "filename":  "6.8 bar.png",
+        "sourceGroup":  "Area Ratio 3.06",
+        "pressureBar":  6.8,
+        "areaRatio":  3.06,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 3.06/7.4 bar.png",
+        "filename":  "7.4 bar.png",
+        "sourceGroup":  "Area Ratio 3.06",
+        "pressureBar":  7.4,
+        "areaRatio":  3.06,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 3.06/8.2 bar.png",
+        "filename":  "8.2 bar.png",
+        "sourceGroup":  "Area Ratio 3.06",
+        "pressureBar":  8.2,
+        "areaRatio":  3.06,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 3.06/8.8 bar.png",
+        "filename":  "8.8 bar.png",
+        "sourceGroup":  "Area Ratio 3.06",
+        "pressureBar":  8.8,
+        "areaRatio":  3.06,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 3.06/9.5 bar.png",
+        "filename":  "9.5 bar.png",
+        "sourceGroup":  "Area Ratio 3.06",
+        "pressureBar":  9.5,
+        "areaRatio":  3.06,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 5.52/4.1 bar.png",
+        "filename":  "4.1 bar.png",
+        "sourceGroup":  "Area Ratio 5.52",
+        "pressureBar":  4.1,
+        "areaRatio":  5.52,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 5.52/5.4 bar.png",
+        "filename":  "5.4 bar.png",
+        "sourceGroup":  "Area Ratio 5.52",
+        "pressureBar":  5.4,
+        "areaRatio":  5.52,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 5.52/6.8 bar.png",
+        "filename":  "6.8 bar.png",
+        "sourceGroup":  "Area Ratio 5.52",
+        "pressureBar":  6.8,
+        "areaRatio":  5.52,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 5.52/7.4 bar.png",
+        "filename":  "7.4 bar.png",
+        "sourceGroup":  "Area Ratio 5.52",
+        "pressureBar":  7.4,
+        "areaRatio":  5.52,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 5.52/8.2 bar.png",
+        "filename":  "8.2 bar.png",
+        "sourceGroup":  "Area Ratio 5.52",
+        "pressureBar":  8.2,
+        "areaRatio":  5.52,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 5.52/8.8 bar.png",
+        "filename":  "8.8 bar.png",
+        "sourceGroup":  "Area Ratio 5.52",
+        "pressureBar":  8.8,
+        "areaRatio":  5.52,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 5.52/9.5 bar.png",
+        "filename":  "9.5 bar.png",
+        "sourceGroup":  "Area Ratio 5.52",
+        "pressureBar":  9.5,
+        "areaRatio":  5.52,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 6.17/4.1 bar.png",
+        "filename":  "4.1 bar.png",
+        "sourceGroup":  "Area Ratio 6.17",
+        "pressureBar":  4.1,
+        "areaRatio":  6.17,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 6.17/5.4 bar.png",
+        "filename":  "5.4 bar.png",
+        "sourceGroup":  "Area Ratio 6.17",
+        "pressureBar":  5.4,
+        "areaRatio":  6.17,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 6.17/6.8 bar.png",
+        "filename":  "6.8 bar.png",
+        "sourceGroup":  "Area Ratio 6.17",
+        "pressureBar":  6.8,
+        "areaRatio":  6.17,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 6.17/7.4 bar.png",
+        "filename":  "7.4 bar.png",
+        "sourceGroup":  "Area Ratio 6.17",
+        "pressureBar":  7.4,
+        "areaRatio":  6.17,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 6.17/8.2 bar.png",
+        "filename":  "8.2 bar.png",
+        "sourceGroup":  "Area Ratio 6.17",
+        "pressureBar":  8.2,
+        "areaRatio":  6.17,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 6.17/8.8 bar.png",
+        "filename":  "8.8 bar.png",
+        "sourceGroup":  "Area Ratio 6.17",
+        "pressureBar":  8.8,
+        "areaRatio":  6.17,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "Bar Images/Area Ratio 6.17/9.5 bar.png",
+        "filename":  "9.5 bar.png",
+        "sourceGroup":  "Area Ratio 6.17",
+        "pressureBar":  9.5,
+        "areaRatio":  6.17,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "training-images/4-bar/Circle1semi-circle-4bar.jpg",
+        "filename":  "Circle1semi-circle-4bar.jpg",
+        "sourceGroup":  "User-provided 4 bar",
+        "pressureBar":  4,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "training-images/4-bar/Circle-4bar-1.jpg",
+        "filename":  "Circle-4bar-1.jpg",
+        "sourceGroup":  "User-provided 4 bar",
+        "pressureBar":  4,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "training-images/4-bar/Circle2semi-circle-4bar.jpg",
+        "filename":  "Circle2semi-circle-4bar.jpg",
+        "sourceGroup":  "User-provided 4 bar",
+        "pressureBar":  4,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "training-images/6-bar/circle1semi-circle-6bar.jpg",
+        "filename":  "circle1semi-circle-6bar.jpg",
+        "sourceGroup":  "User-provided 6 bar",
+        "pressureBar":  6,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "training-images/6-bar/Circle-2semi-circle-grooves-6bar.JPG",
+        "filename":  "Circle-2semi-circle-grooves-6bar.JPG",
+        "sourceGroup":  "User-provided 6 bar",
+        "pressureBar":  6,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "training-images/6-bar/Circle-6bar-1.jpg",
+        "filename":  "Circle-6bar-1.jpg",
+        "sourceGroup":  "User-provided 6 bar",
+        "pressureBar":  6,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "training-images/8-bar/Circle1semi-circle-8bar.JPG",
+        "filename":  "Circle1semi-circle-8bar.JPG",
+        "sourceGroup":  "User-provided 8 bar",
+        "pressureBar":  8,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "training-images/8-bar/Circle2semi-circle-8bar.jpg",
+        "filename":  "Circle2semi-circle-8bar.jpg",
+        "sourceGroup":  "User-provided 8 bar",
+        "pressureBar":  8,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    },
+    {
+        "file":  "training-images/8-bar/Circle-8bar-2.JPG",
+        "filename":  "Circle-8bar-2.JPG",
+        "sourceGroup":  "User-provided 8 bar",
+        "pressureBar":  8,
+        "areaRatio":  null,
+        "split":  "paper-training"
+    }
+]

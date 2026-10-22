@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NozzleLab | Upload Workspace</title>
+  <meta name="description" content="Upload a Schlieren image, run the local analysis and download the results report.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="upload-page">
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">∿</span><span>NOZZLE<span class="brand-muted">LAB</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="analyzer.html">Analyzer</a><a class="active" href="upload.html">Upload</a></nav>
+    <a href="analyzer.html" class="header-link">Back to analyzer <span>←</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+  </header>
+  <main>
+    <section class="upload-hero section-wrap">
+      <div class="section-index">UPLOAD WORKSPACE / STEP 02</div>
+      <div class="workflow-page-heading"><div><h1>Run your<br><em>experiment.</em></h1><p class="workflow-lead">Upload one image and review everything in one clean flow. Processing happens locally in this browser.</p></div><div class="workflow-badge"><strong>STEP 02</strong><span>Input → Process → Results</span></div></div>
+      <div class="upload-workspace" id="analyzer">
+        <form class="upload-panel" id="analysisForm">
+          <label class="upload-drop" for="imageInput"><span class="upload-symbol">＋</span><strong id="fileName">Choose a Schlieren image</strong><small>PNG, JPG or WEBP · processed locally</small><input id="imageInput" type="file" accept="image/png,image/jpeg,image/webp"></label>
+          <div class="input-section-title">SINGLE EXPERIMENT INPUT</div>
+          <label class="field-label pressure-only-label" for="pressureInput">Training pressure bucket <span>whole bar</span><input id="pressureInput" type="number" min="2" max="10" step="1" value="4" required></label>
+          <div class="calibration-note"><span>AUTOMATIC DETECTION</span><p>Area ratio, shock angle, shock-cell spacing, jet boundary, Mach disk and flow properties are detected or calculated from the uploaded Schlieren image and pressure value.</p></div>
+          <button class="button button-dark" type="submit" id="runAnalysis">Run analysis <span>→</span></button>
+          <p class="form-note" id="formNote">Enter one whole-bar bucket from 2 to 10. Source pressures such as 1.6–2.4 bar are represented by the 2 bar training bucket.</p>
+        </form>
+        <div class="preview-panel"><div class="preview-label"><span>OPENCV LOADER</span><span id="previewMeta">READY FOR INPUT</span></div><div class="image-preview"><div class="preview-placeholder" id="previewPlaceholder">Your uploaded frame<br>will appear here</div><img id="imagePreview" alt="Uploaded Schlieren preview"></div></div>
+      </div>
+      <div class="completion-box" id="completionBox" role="status"><span class="completion-check">✓</span><div><strong>Analysis completed</strong><p>Your physics and image results are ready to review.</p></div><a class="workflow-arrow" href="#results" aria-label="Go to results">↓</a></div>
+    </section>
+    <section class="results section-wrap" id="results">
+      <div class="section-index">RESULTS / STEP 03</div>
+      <div class="results-heading"><div><h2>Measured<br><em>output.</em></h2><p>Inspect the image stages and extracted values, then download the completed single-page report.</p></div><button class="button button-light result-pdf" id="downloadPdf" type="button" disabled>Download PDF <span>↓</span></button></div>
+      <div class="result-grid">
+        <div class="result-image-card"><div class="result-card-top"><span>IMAGE STAGES</span><span id="resultPressure">P₀ = — bar</span></div><div class="result-stage-grid"><figure><img id="resultImage" alt="Original analyzed Schlieren frame"><figcaption>ORIGINAL</figcaption></figure><figure><img id="enhancedImage" alt="Enhanced analyzed Schlieren frame"><figcaption>ENHANCED</figcaption></figure><figure><img id="overlayImage" alt="Shock-wave overlay result"><figcaption>SHOCK OVERLAY</figcaption></figure></div><div class="result-empty" id="resultEmpty">Run an analysis to populate the result images.</div></div>
+        <div class="result-metrics"><div class="result-metric primary"><span>PHYSICS MACH</span><strong id="machValue">—</strong><small>Isentropic NPR estimate</small></div><div class="result-metric"><span>AI MACH</span><strong id="aiMachValue">—</strong><small>Pixel-feature kNN estimate</small></div><div class="result-metric"><span>STATIC PRESSURE</span><strong id="staticPressure">—</strong><small>kPa</small></div><div class="result-metric"><span>STATIC TEMPERATURE</span><strong id="staticTemperature">—</strong><small>K</small></div><div class="result-metric"><span>DENSITY</span><strong id="densityValue">—</strong><small>kg/m³</small></div><div class="result-metric"><span>VELOCITY</span><strong id="velocityValue">—</strong><small>m/s</small></div><div class="result-metric"><span>FLOW CLASS</span><strong id="flowClass">—</strong><small>Expansion state</small></div><div class="result-metric"><span>SHOCK CELLS</span><strong id="shockCells">—</strong><small>Detected estimate</small></div><div class="result-metric"><span>SHOCK ANGLE</span><strong id="shockAngle">—</strong><small>degrees</small></div><div class="result-metric"><span>AI CONFIDENCE</span><strong id="confidenceValue">—</strong><small>Feature-space estimate</small></div></div>
+      </div>
+      <div class="result-note"><span>AUTOMATIC OUTPUTS</span><p>All remaining physics, computer-vision and AI values are generated from the image and entered bar pressure. No additional experimental values are required from the user.</p></div>
+      <div class="diagnostic-strip">
+        <div><span>SHOCK-CELL SPACING</span><strong id="cellSpacing">—</strong><small>mm</small></div>
+        <div><span>MACH DISK</span><strong id="machDisk">—</strong><small>image detection</small></div>
+        <div><span>JET BOUNDARY</span><strong id="jetBoundary">—</strong><small>image detection</small></div>
+        <div><span>EDGE THRESHOLD</span><strong id="edgeThreshold">—</strong><small>adaptive value</small></div>
+        <div><span>DYNAMIC PRESSURE</span><strong id="dynamicPressure">—</strong><small>kPa</small></div>
+        <div><span>EXIT MASS FLOW</span><strong id="massFlow">—</strong><small>kg/s</small></div>
+        <div><span>CALIBRATION SCALE</span><strong id="calibrationScale">—</strong><small>mm/px</small></div>
+      </div>
+    </section>
+  </main>
+  <footer><span>NOZZLELAB / EXPERIMENTAL AERODYNAMICS</span><span>Browser-only local processing.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

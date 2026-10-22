@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NozzleLab | Analyzer Overview</title>
+  <meta name="description" content="Understand the NozzleLab browser-only Schlieren analysis workflow.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="workflow-page">
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">∿</span><span>NOZZLE<span class="brand-muted">LAB</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a class="active" href="analyzer.html">Analyzer</a><a href="upload.html">Upload</a>
+    </nav>
+    <a href="upload.html" class="header-link">Open upload <span>→</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+  </header>
+  <main class="workflow-shell">
+    <p class="kicker"><span class="pulse"></span> Browser-only workflow</p>
+    <div class="workflow-page-heading">
+      <div><p class="section-index">ANALYZER OVERVIEW</p><h1>Understand the<br><em>workflow.</em></h1><p class="workflow-lead">This page explains the analysis flow before you upload an image. The next page contains the image-processing workspace.</p></div>
+      <div class="workflow-badge"><strong>STEP 01</strong><span>Overview → Upload → Results</span></div>
+    </div>
+    <div class="guide-list">
+      <article><span>01</span><div><h2>Open the upload workspace</h2><p>Use the upload page when you are ready to process a Schlieren image in the browser.</p></div><a href="upload.html">→</a></article>
+      <article><span>02</span><div><h2>Review the processing stages</h2><p>The workspace shows the uploaded frame, local enhancement, image results and extracted physics values.</p></div><span class="guide-status">LOCAL CV</span></article>
+      <article><span>03</span><div><h2>Export the completed summary</h2><p>After analysis, the results section becomes available and the single-page PDF downloads directly to your device.</p></div><span class="guide-status">PDF READY</span></article>
+    </div>
+    <div class="workflow-actions"><a class="button button-dark" href="upload.html">Open upload page <span>→</span></a><a class="text-button dark" href="index.html">← Back home</a></div>
+  </main>
+  <footer><span>NOZZLELAB / EXPERIMENTAL AERODYNAMICS</span><span>Images remain in your browser.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supersonic Jet Flow | Experimental Investigation</title>
+  <meta name="description" content="Experimental investigation of supersonic jet flow in a convergent-divergent nozzle using Schlieren imaging and AI-based image analysis.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#top"><span class="brand-mark">∿</span><span>NOZZLE<span class="brand-muted">LAB</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#overview">Overview</a>
+      <a href="#methodology">Methodology</a>
+      <a href="#ai-analysis">AI analysis</a>
+      <a href="#findings">Findings</a>
+    </nav>
+    <a href="#contact" class="header-link">Project brief <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="overview">
+      <div class="hero-copy">
+        <p class="kicker"><span class="pulse"></span> Experimental investigation · 2026</p>
+        <h1>Seeing the<br><em>invisible</em> in flight.</h1>
+        <p class="hero-text">An experimental study of supersonic jet flow in a convergent–divergent nozzle, combining optical diagnostics with AI-based image analysis.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="analyzer.html">Start the analysis <span>→</span></a>
+          <a class="text-button" href="#methodology">Explore the methodology <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>01</strong><span>Flow visualization</span></div>
+          <div><strong>02</strong><span>AI-assisted analysis</span></div>
+          <div><strong>03</strong><span>Pressure &amp; Mach data</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow section-wrap" id="workflow">
+      <div class="section-index">01 / 03 · ANALYSIS WORKFLOW</div>
+      <div class="workflow-heading">
+        <div>
+          <h2>From image<br>to <em>evidence.</em></h2>
+          <p>Follow three simple steps to inspect a Schlieren frame, estimate the flow properties and download an auditable report.</p>
+        </div>
+        <div class="step-progress" aria-label="Analysis progress">
+          <span class="is-active">01</span><i></i><span>02</span><i></i><span>03</span>
+        </div>
+      </div>
+      <div class="workflow-cards">
+        <article class="workflow-card active"><span class="workflow-number">01</span><div class="workflow-icon">◎</div><h3>Understand the tool</h3><p>Review the project purpose, image-processing pipeline and physics values that the analyzer extracts.</p><a class="workflow-arrow" href="analyzer.html" aria-label="Open analyzer overview">→</a></article>
+        <article class="workflow-card"><span class="workflow-number">02</span><div class="workflow-icon">⌁</div><h3>Upload &amp; analyze</h3><p>Choose a Schlieren image, enter the operating pressure in bar and run the local analysis.</p><a class="workflow-arrow" href="upload.html" aria-label="Open upload workspace">→</a></article>
+        <article class="workflow-card"><span class="workflow-number">03</span><div class="workflow-icon">↗</div><h3>Review &amp; report</h3><p>Inspect the extracted values and image stages, then download the completed single-page PDF.</p><a class="workflow-arrow" href="upload.html#results" aria-label="Go to final results">→</a></article>
+      </div>
+    </section>
+
+    <section class="analyzer section-wrap" id="analyzer">
+      <div class="section-index">02 / 03 · UPLOAD &amp; ANALYZE</div>
+      <div class="analyzer-heading"><div><h2>Run your<br><em>experiment.</em></h2><p>Images stay in this browser. Enter one of the trained pressure buckets, run the pipeline and continue when the analysis is complete.</p></div><div class="analyzer-status" id="analyzerStatus">READY FOR INPUT</div></div>
+      <div class="analyzer-grid">
+        <form class="upload-panel" id="analysisForm">
+          <label class="upload-drop" for="imageInput"><span class="upload-symbol">＋</span><strong id="fileName">Choose a Schlieren image</strong><small>PNG, JPG or WEBP · processed locally</small><input id="imageInput" type="file" accept="image/png,image/jpeg,image/webp"></label>
+          <label class="field-label" for="pressureInput">Stagnation pressure <span>bar</span></label>
+          <div class="pressure-input"><input id="pressureInput" type="number" min="2" max="10" step="1" value="4" required><span>bar</span></div>
+          <button class="button button-dark" type="submit" id="runAnalysis">Run analysis <span>→</span></button>
+          <p class="form-note" id="formNote">Select an image and enter a whole-bar training bucket from 2 to 10.</p>
+        </form>
+        <div class="preview-panel"><div class="preview-label"><span>LIVE PREVIEW</span><span id="previewMeta">NO IMAGE SELECTED</span></div><div class="image-preview"><div class="preview-placeholder" id="previewPlaceholder">Your uploaded frame<br>will appear here</div><img id="imagePreview" alt="Uploaded Schlieren preview"></div></div>
+      </div>
+      <div class="completion-box" id="completionBox" role="status"><span class="completion-check">✓</span><div><strong>Analysis completed</strong><p>Your physics and image results are ready to review.</p></div><a class="workflow-arrow" href="#results" aria-label="Go to results">↓</a></div>
+    </section>
+
+    <section class="results section-wrap" id="results">
+      <div class="section-index">03 / 03 · FINAL RESULTS</div>
+      <div class="results-heading"><div><h2>Measured<br><em>output.</em></h2><p>All values below update from the selected pressure and image. Use the report button to download the current result as a single-page PDF.</p></div><button class="button button-light result-pdf" id="downloadPdf" type="button" disabled>Download PDF <span>↓</span></button></div>
+      <div class="result-grid">
+        <div class="result-image-card"><div class="result-card-top"><span>IMAGE STAGES</span><span id="resultPressure">P₀ = — bar</span></div><div class="result-stage-grid"><figure><img id="resultImage" alt="Original analyzed Schlieren frame"><figcaption>ORIGINAL</figcaption></figure><figure><img id="enhancedImage" alt="Enhanced analyzed Schlieren frame"><figcaption>ENHANCED</figcaption></figure><figure><img id="overlayImage" alt="Shock-wave overlay result"><figcaption>SHOCK OVERLAY</figcaption></figure></div><div class="result-empty" id="resultEmpty">Run an analysis to populate the result images.</div></div>
+        <div class="result-metrics"><div class="result-metric primary"><span>PHYSICS MACH</span><strong id="machValue">—</strong><small>Isentropic NPR estimate</small></div><div class="result-metric"><span>STATIC PRESSURE</span><strong id="staticPressure">—</strong><small>bar</small></div><div class="result-metric"><span>FLOW CLASS</span><strong id="flowClass">—</strong><small>Expansion state</small></div><div class="result-metric"><span>SHOCK CELLS</span><strong id="shockCells">—</strong><small>Detected estimate</small></div><div class="result-metric"><span>VELOCITY</span><strong id="velocityValue">—</strong><small>m/s</small></div><div class="result-metric"><span>AI CONFIDENCE</span><strong id="confidenceValue">—</strong><small>Feature-space estimate</small></div></div>
+      </div>
+      <div class="result-note"><span>REPORT CONTENT</span><p>Pressure bucket, Mach estimate, flow classification, detected shock-cell count, velocity, confidence and the uploaded Schlieren image are included in the downloaded PDF.</p></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div class="section-index">01 / CONTEXT</div>
+      <div class="intro-copy">
+        <h2>When air moves faster than sound, <span>density becomes visible.</span></h2>
+        <p>Supersonic flows contain shock waves, expansion fans and shear layers that cannot be observed with the naked eye. This project makes those structures measurable — first through Schlieren imaging, then through a computer vision pipeline designed to identify and quantify them.</p>
+      </div>
+      <div class="metric-strip">
+        <div><strong>1.8–2.4</strong><span>Target exit Mach number</span></div>
+        <div><strong>2,400 fps</strong><span>High-speed imaging</span></div>
+        <div><strong>14.7 kPa</strong><span>Measured pressure range</span></div>
+      </div>
+    </section>
+
+    <section class="methodology section-wrap" id="methodology">
+      <div class="section-index">02 / THE SETUP</div>
+      <div class="section-heading">
+        <h2>From reservoir<br>to <em>jet plume.</em></h2>
+        <p>A controlled, repeatable test sequence connects the hardware, the optical system and the data layer.</p>
+      </div>
+      <div class="method-grid">
+        <article class="method-card"><span class="card-no">01</span><div class="method-icon">◉</div><h3>Convergent–divergent nozzle</h3><p>Air accelerates through a calibrated throat into an adjustable divergent section, creating a controllable supersonic exhaust.</p><span class="card-tag">HARDWARE</span></article>
+        <article class="method-card accent"><span class="card-no">02</span><div class="method-icon">⌁</div><h3>Schlieren optical path</h3><p>A knife-edge system converts refractive-index gradients into contrast, revealing the flow’s shock-cell structure.</p><span class="card-tag">DIAGNOSTICS</span></article>
+        <article class="method-card"><span class="card-no">03</span><div class="method-icon">✣</div><h3>AI image analysis</h3><p>A segmentation pipeline extracts shock fronts, estimates spacing and tracks changes across operating conditions.</p><span class="card-tag">COMPUTATIONAL</span></article>
+      </div>
+    </section>
+
+    <section class="ai-section section-wrap" id="ai-analysis">
+      <div class="section-index">03 / COMPUTATIONAL LAYER</div>
+      <div class="ai-layout">
+        <div><h2>From pixels<br>to <em>patterns.</em></h2><p class="body-copy">The image-analysis workflow turns each frame into structured evidence. Contrast normalization and edge-aware segmentation isolate density-gradient features before a lightweight classifier labels the flow regime.</p><a class="text-button dark" href="#findings">See the output <span>↗</span></a></div>
+        <div class="pipeline">
+          <div class="pipeline-step"><span>01</span><div><strong>Capture</strong><small>Raw Schlieren frame</small></div><b>→</b></div>
+          <div class="pipeline-step"><span>02</span><div><strong>Enhance</strong><small>Contrast + denoise</small></div><b>→</b></div>
+          <div class="pipeline-step"><span>03</span><div><strong>Segment</strong><small>Shock-front mask</small></div><b>→</b></div>
+          <div class="pipeline-step final"><span>04</span><div><strong>Quantify</strong><small>Spacing + intensity</small></div><b>✓</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="findings section-wrap" id="findings">
+      <div class="section-index">04 / EARLY FINDINGS</div>
+      <div class="findings-heading"><h2>What the data<br>is beginning to <em>tell us.</em></h2><p>Initial observations from the first test matrix. Replace these values with your final measured results as the campaign develops.</p></div>
+      <div class="findings-grid">
+        <article class="finding"><span>01</span><strong>0.86<span>×</span></strong><p>Normalized shock-cell spacing remains stable through the central test range.</p></article>
+        <article class="finding"><span>02</span><strong>65<span>%</span></strong><p>Conservative prototype accuracy estimate for the current image-analysis model.</p></article>
+        <article class="finding"><span>03</span><strong>−18<span>%</span></strong><p>Reduction in analysis time compared with frame-by-frame manual processing.</p></article>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-card"><div><p class="kicker">PROJECT DOCUMENTATION</p><h2>Make the invisible<br><em>measurable.</em></h2></div><a class="button button-light" href="https://github.com/rajivdeeru-cmd" target="_blank" rel="noopener noreferrer">Visit my GitHub <span>↗</span></a><a class="button button-light" href="mailto:rajivdeeru@gmail.com">Email me <span>↗</span></a></div>
+    </section>
+  </main>
+  <footer><span>NOZZLELAB / EXPERIMENTAL AERODYNAMICS</span><span>Built for clear observation.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+NOZZLELAB - START HERE
+
+To open the same website as http://localhost:4173/index.html:
+
+1. Extract this ZIP.
+2. Open the extracted project folder in VS Code.
+3. Open a terminal in that folder and run:
+
+   .\run-project.cmd
+
+4. The launcher starts the static website and opens
+   http://127.0.0.1:4173/index.html
+
+The website is the root-level index.html with analyzer.html, upload.html,
+styles.css, and script.js alongside it.
+
+You can also use VS Code's Command Palette > Tasks: Run Task >
+Run my project (no npm).
+
+Do not run "npm run dev" if you want this exact website. That starts the
+separate Next.js implementation included in the project.
